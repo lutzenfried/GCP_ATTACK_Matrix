@@ -11,7 +11,7 @@ An open-source, community-driven knowledge base of tactics, techniques, and proc
 
 ## 🎯 About The Project
 
-As organizations increasingly rely on Google Cloud, understanding the specific threat landscape becomes critical. This project aims to be the most comprehensive and up-to-date public resource for security professionals, mapping adversary behaviors to the MITRE ATT&CK® framework.
+As organizations increasingly rely on Google Cloud, understanding the specific threat landscape becomes critical. What I have found over the years is that GCP is the least covered CSP out there from the big three (AWS, Azure, GCP), but attacks, abuses and misconfigurations exist. So instead of treating it like the forgotten little brother, I think it is important to understand its specific threat landscape. This project aims to be the most comprehensive and up-to-date public resource for security professionals, mapping adversary behaviors to the MITRE ATT&CK® framework.
 
 This matrix is designed for:
 * **Red Teamers & Pentesters** to discover and simulate attack paths.
@@ -43,3 +43,7 @@ This project is distributed under the MIT License. See the `LICENSE` file for mo
 ## 🙏 Acknowledgements
 
 This project would not be possible without the incredible work of the security researchers, bloggers, and professionals who share their knowledge publicly. A huge thank you to everyone who has contributed, directly or indirectly.
+
+Clément Cruchet - (aka. Lutzenfried)
+
+🏴‍☠️ HackTheWorld
