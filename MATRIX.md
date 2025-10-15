@@ -34,69 +34,69 @@ It is a community-driven project designed to help security professionals, red te
 ## New Techniques Added with Sources
 
 ### TA0043 - Reconnaissance
-- **Scan for exposed Firebase DBs** - Source: Cyserch Top 10 GCP Vulnerabilities 2025
-- **GitHub/GitLab dork for GCP resources** - Source: GitLab Tutorial on GCP privilege escalation
-- **Shodan/Censys for exposed services** - Source: StationX Cloud Security Statistics 2025
+- **Scan for exposed Firebase DBs** 
+- **GitHub/GitLab dork for GCP resources**
+- **Shodan/Censys for exposed services**
 
 ### TA0001 - Initial Access
-- **DKIM Replay Attacks** - Source: Doppel and BleepingComputer articles on Google OAuth/DKIM attacks
-- **Supply Chain via Container Images** - Source: Cyber Press on GCP exploitation methods
-- **CloudImposer Dependency Confusion** - Source: Dark Reading RCE flaw in Google Cloud
-- **OAuth Device Code Flow Phishing** - Source: Doppel phishing campaign analysis
-- **Exploit edge device vulnerabilities** - Source: Help Net Security M-Trends 2025 report
-- **Insider threats/North Korean IT workers** - Source: Help Net Security on insider threat rise
-- **Recycled domain OAuth hijacking** - Source: The Hacker News Google OAuth vulnerability
+- **DKIM Replay Attacks**
+- **Supply Chain via Container Images** 
+- **CloudImposer Dependency Confusion** 
+- **OAuth Device Code Flow Phishing**
+- **Exploit edge device vulnerabilities**
+- **Insider threats/North Korean IT workers**
+- **Recycled domain OAuth hijacking** 
 
 ### TA0002 - Execution
-- **Serial Console execution** - Source: Unit42 cloud lateral movement techniques
+- **Serial Console execution** 
 
 ### TA0003 - Persistence
-- **Add SSH keys to project metadata** - Source: Google Cloud Blog and Unit42 on lateral movement
-- **Backdoor container images in GCR** - Source: GitLab GCP post-exploitation tactics
-- **Golden Image persistence** - Source: Google Community on Golden Image lateral movement
-- **Bootstrap token persistence** - Source: Assured AB on exploiting GKE defaults
+- **Add SSH keys to project metadata**
+- **Backdoor container images in GCR**
+- **Golden Image persistence** 
+- **Bootstrap token persistence**
 
 ### TA0004 - Privilege Escalation
-- **Deployment Manager Editor Access** - Source: Rhino Security Labs GCP privilege escalation
-- **Workload Identity Federation abuse** - Source: Multiple sources on Workload Identity Federation
-- **Container escape to node** - Source: Assured AB GKE exploitation
-- **Confused deputy via Service Accounts** - Source: Tenable ConfusedFunction vulnerability
+- **Deployment Manager Editor Access**
+- **Workload Identity Federation abuse**
+- **Container escape to node** 
+- **Confused deputy via Service Accounts** 
 
 ### TA0005 - Defense Evasion
-- **OAuth token refresh abuse** - Source: Google Cloud on OAuth token mitigation
-- **Modify VPC firewall rules** - Source: Google Cloud Blog on Compute Engine defense
-- **VPC Service Controls dry run abuse** - Source: Google Cloud VPC Service Controls overview
+- **OAuth token refresh abuse** 
+- **Modify VPC firewall rules** 
+- **VPC Service Controls dry run abuse**
 
 ### TA0006 - Credential Access
-- **Browser cookie theft** - Source: BleepingComputer on phishing attacks
-- **SSRF to metadata service** - Source: Multiple sources on SSRF attacks
-- **Steal credentials from VM memory** - Source: GitLab on GCP post-exploitation
-- **Extract from Cloud Source Repos** - Source: Help Net Security on repository exposure
-- **Cloud Function token theft** - Source: Multiple sources on Cloud Build exploitation
-- **Workload identity token extraction** - Source: mozillazg's Blog on Workload Identity
-- **TPM key extraction** - Source: Assured AB on TPM abuse in GKE
-- **DKIM signed email replay** - Source: Multiple sources on DKIM replay attacks
+- **Browser cookie theft** 
+- **SSRF to metadata service**
+- **Steal credentials from VM memory**
+- **Extract from Cloud Source Repos**
+- **Cloud Function token theft**
+- **Workload identity token extraction**
+- **TPM key extraction**
+- **DKIM signed email replay**
 
 ### TA0007 - Discovery
-- **Enumerate Workspace groups** - Source: SANS on Google Workspace audit logs
-- **Security Command Center enumeration** - Source: Google Cloud threat investigation
-- **Attack path simulation discovery** - Source: Google Cloud attack exposure documentation
+- **Enumerate Workspace groups** 
+- **Security Command Center enumeration**
+- **Attack path simulation discovery**
 
 ### TA0008 - Collection
-- **Snapshot disk access** - Source: Google Cloud Blog on lateral movement prevention
-- **Access shared drives** - Source: Strac on Google Workspace security
-- **Clone VM disks via snapshots** - Source: Multiple sources on VM disk cloning
-- **VM Serial Console access** - Source: Unit42 on serial console abuse
+- **Snapshot disk access** 
+- **Access shared drives** 
+- **Clone VM disks via snapshots** 
+- **VM Serial Console access** 
 
 ### TA0010 - Exfiltration
-- **VPC Peering for lateral movement** - Source: Wiz Blog on VPC lateral movement
-- **Storage Transfer Service abuse** - Source: Google Cloud VPC Service Controls
-- **Abuse ingress/egress rules** - Source: VPC Service Controls documentation
+- **VPC Peering for lateral movement** 
+- **Storage Transfer Service abuse** 
+- **Abuse ingress/egress rules** 
 
 ### TA0011 - Impact
-- **DDoS Attacks** - Source: Google Cloud on Rapid Reset DDoS
-- **Rapid Reset DDoS** - Source: Google Cloud largest DDoS attack mitigation
-- **VM disk encryption for ransom** - Source: Google Cloud Cybersecurity Forecast 2025
+- **DDoS Attacks** 
+- **Rapid Reset DDoS** 
+- **VM disk encryption for ransom** 
 
 ## Notes - To Do
 - This matrix should be regularly updated as new techniques are discovered
